@@ -16,12 +16,12 @@ rustc ftpclient.rs
 A server.exe and ftpclient.exe file should exist afterwards.
 
 ## 2 - Launch the server
-Run this only after compiling the server.rs file
+Run this only after compiling the server.rs file  
 `./server.exe`
 
 ## 3 - Run the Client
 Run this only after compiling ftpclient.rs.
-The proper port number is 1337 and the program will not progress unless that port is used.
+The proper port number is 1337 and the program will not progress unless that port is used.  
 `./ftpclient 1337`
 
 ## 4 - Use the Client
@@ -30,8 +30,8 @@ There are 3 different actions the client can take:
 2. Upload - Upload a local file to the server
 3. Exit - Disconnect and exit the program
 
-For both get and upload, the following input is necessary:
-`action file_name`
+For both get and upload, the following input is necessary:  
+`action file_name`  
 where action is either get or upload and the file_name is the file you wish to get or upload.
 If the file_name is not local, then the client will prevent you from getting or uploading it.
 The file must be on the system.
