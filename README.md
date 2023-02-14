@@ -10,19 +10,21 @@ Basic implementation of my own file transfer protocol between a client and serve
 ## 1 - Compile the rust files
 Run the following two commands
 ```
-rustc server.rs
+rustc ftpserver.rs
 rustc ftpclient.rs
 ```
 A server.exe and ftpclient.exe file should exist afterwards.
 
 ## 2 - Launch the server
-Run this only after compiling the server.rs file  
-`./server.exe`
+Run either of these only after compiling the server.rs file  
+`./ftpserver.exe`
+`ftpserver`
 
 ## 3 - Run the Client
-Run this only after compiling ftpclient.rs.
-The proper port number is 1337 and the program will not progress unless that port is used.  
-`./ftpclient 1337`
+Run these only after compiling ftpclient.rs.
+The proper port number is 5119 and the program will not progress unless that port is used.  
+`./ftpclient 5119`
+`ftpclient 5119
 
 ## 4 - Use the Client
 There are 3 different actions the client can take:
